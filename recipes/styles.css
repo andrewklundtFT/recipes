@@ -10,6 +10,8 @@ html {
 
 img {
     float: right;
+    width: 490px;
+    height:490px;
 }
 
 .important {
@@ -19,14 +21,35 @@ img {
 }
 
 h2.important {
-    text-indent: 10%
+    text-indent: 10%;
     text-align: left;
 }
 
 li {
     font-weight:bold;
+    list-style-position: inside;
 }
 
 a {
-    color:#111a31;
+    color:#5e5e5e;
+}
+
+p {
+    color:rgb(78, 27, 20);
+    font-weight: 550
+}
+
+.footnote {
+    position:fixed;
+    bottom:0;
+    font-size:18px
+}
+
+.footnote.important {
+    background-color: #fff8e3;
+    padding:6px
+}
+
+p a {
+    text-decoration: none;
 }
